@@ -157,6 +157,6 @@ Here are the key methods specific to the `Queue` interface:
 
 | Method                 | Return Type                      | Description                                                         |
 |------------------------|----------------------------------|---------------------------------------------------------------------|
-| `add(Type value)`      | boolean                          | Adds an item to the end of the queue                                |
-| `remove(Type value)`   | element that is removed          | Removes an item from the beginning of the queue                     |
+| `add(Element item)`    | boolean                          | Adds an item to the end of the queue                                |
+| `remove(Element item)` | element that is removed          | Removes an item from the beginning of the queue                     |
 | `element()`            | element at the head of the queue | Gets the item at the beginning of the queue, but does not remove it |
